@@ -56,5 +56,15 @@ $(document).on("click", "#mailchimp", function () {
 $(document).on("click", "#resume", function () {
     window.open("https://drive.google.com/file/d/1V8nwHXaHcTvJLf5I8pivfCqoQdf-blCp/view?usp=sharing");
 })
+//linked in link 
+$(document).on("click", "#linkedin", function () {
+    window.open("https://www.linkedin.com/in/markkimeyer/");
+})
+
+//github link
+$(document).on("click", "#github", function () {
+    window.open("https://github.com/markkimeyer");
+})
+
 //don't delete closing tab
 })
