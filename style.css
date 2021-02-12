@@ -9,6 +9,20 @@ body
     border: solid 8px #b7cfcf;
 }
 
+img.gallery{
+    height: 163px;
+    width: 256;
+
+}
+
+img.gallery:hover{
+    opacity: 60%;
+
+}
+button:hover {
+    font-weight: 600;
+}
+
 /* .thumbnails {
     height: 200px;
     width: 250px;
@@ -33,6 +47,8 @@ body
 .card-body {
     background-color: rgb(210, 231, 233);
     margin-top: 15px;
+    height: 352px;
+   
 }
 p {
   
@@ -45,12 +61,17 @@ p {
 
 .aboutrow {
     background-color: white;
-}
-
-main {
     padding: 20px;
 }
 
+header
+{
+    padding: 20px;
+}
+
+main {
+    padding: none;
+}
 
 h2 {
     color:#a180bb;
